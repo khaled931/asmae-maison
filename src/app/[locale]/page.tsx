@@ -6,13 +6,13 @@ import { siteContent } from "@/content/site";
 import { CardGrid, SurfaceCard } from "@/components/ui";
 
 const signalLabels = {
-  fr: ["Etiquette moderne", "Hospitalite de luxe", "Presence executive", "Codes Europe, Golfe et monde"],
+  fr: ["Étiquette moderne", "Hospitalité de luxe", "Présence exécutive", "Codes Europe, Golfe et monde"],
   en: ["Modern etiquette", "Luxury hospitality", "Executive presence", "Europe, Gulf and global codes"],
   ar: ["الإتيكيت الحديث", "الضيافة الفاخرة", "الحضور التنفيذي", "رموز أوروبا والخليج والعالم"]
 };
 
 const learningLabels = {
-  fr: ["Recevoir avec aisance", "Diner et reseauter", "Communiquer avec elegance", "Se presenter avec confiance"],
+  fr: ["Recevoir avec aisance", "Dîner et réseauter", "Communiquer avec élégance", "Se présenter avec confiance"],
   en: ["Host with ease", "Dine and network", "Communicate elegantly", "Present yourself with confidence"],
   ar: ["الاستقبال بثقة", "موائد العمل وبناء العلاقات", "التواصل بأناقة", "تقديم الذات بثقة"]
 };

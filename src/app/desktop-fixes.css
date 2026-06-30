@@ -1,0 +1,192 @@
+/* Desktop and homepage composition refinements
+   This file intentionally loads after globals.css to correct the first-screen hierarchy. */
+
+@media (min-width: 1081px) {
+  main {
+    padding-top: 16px;
+  }
+
+  .site-header {
+    width: min(1280px, calc(100% - 72px));
+    grid-template-columns: minmax(260px, 0.95fr) minmax(420px, auto) minmax(270px, 0.9fr);
+    padding-block: 22px 14px;
+  }
+
+  .site-nav {
+    gap: 14px;
+  }
+
+  .site-nav a,
+  .locale-switcher a,
+  .theme-toggle {
+    font-size: 0.84rem;
+    padding: 9px 13px;
+  }
+
+  main,
+  .site-footer {
+    width: min(1280px, calc(100% - 72px));
+  }
+
+  .academy-hero {
+    grid-template-columns: minmax(0, 1.16fr) minmax(360px, 0.84fr);
+    gap: clamp(28px, 4vw, 56px);
+    align-items: stretch;
+    padding-block: clamp(56px, 6vw, 90px) 40px;
+  }
+
+  .hero-copy {
+    min-height: 620px;
+    padding: clamp(44px, 5vw, 76px);
+  }
+
+  .hero-copy h1 {
+    max-width: 820px;
+    font-size: clamp(3.4rem, 5.15vw, 5.15rem);
+    line-height: 1.03;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+
+  .hero-intro,
+  .hero-copy > p:not(.eyebrow) {
+    max-width: 720px;
+    font-size: clamp(1.08rem, 1.15vw, 1.22rem);
+    line-height: 1.78;
+  }
+
+  .signal-row {
+    max-width: 780px;
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  .signal-row span {
+    min-height: 38px;
+    padding-inline: 15px;
+  }
+
+  .academy-panel {
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 22px;
+    padding: clamp(22px, 3vw, 34px);
+  }
+
+  .academy-panel-card {
+    align-self: auto;
+    margin-top: auto;
+    padding: clamp(28px, 3.5vw, 42px);
+  }
+
+  .academy-panel-card h2 {
+    max-width: 11ch;
+    font-size: clamp(2.05rem, 3.15vw, 3.15rem);
+    line-height: 1.06;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .academy-symbol-grid {
+    order: -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .academy-symbol-grid span {
+    min-height: 116px;
+    font-size: clamp(1.05rem, 1.25vw, 1.35rem);
+  }
+
+  .purpose-strip {
+    margin-top: 8px;
+    margin-bottom: 84px;
+  }
+
+  .purpose-item {
+    min-height: 128px;
+    padding: 28px 26px;
+  }
+
+  .section-title {
+    grid-template-columns: minmax(0, 0.86fr) minmax(360px, 0.62fr);
+    align-items: start;
+    margin-top: 84px;
+  }
+
+  .section-title h2 {
+    max-width: 760px;
+    text-wrap: balance;
+  }
+
+  .card-grid {
+    gap: 22px;
+  }
+
+  .surface-card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .surface-card h3 {
+    max-width: 12ch;
+    text-wrap: balance;
+  }
+
+  .surface-card p {
+    line-height: 1.72;
+  }
+
+  .refined-split {
+    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+    gap: 36px;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1320px) {
+  .hero-copy h1 {
+    font-size: clamp(3rem, 4.65vw, 4.35rem);
+    max-width: 740px;
+  }
+
+  .hero-copy,
+  .academy-panel {
+    min-height: 560px;
+  }
+
+  .academy-panel-card h2 {
+    font-size: clamp(1.9rem, 2.55vw, 2.55rem);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1080px) {
+  .hero-copy h1 {
+    max-width: 900px;
+    font-size: clamp(2.8rem, 7vw, 4.6rem);
+    line-height: 1.05;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .academy-panel {
+    grid-template-rows: auto auto;
+  }
+
+  .academy-panel-card {
+    align-self: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-copy h1 {
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+}

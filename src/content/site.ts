@@ -94,12 +94,12 @@ type SiteContent = {
 export const siteContent: Record<Locale, SiteContent> = {
   fr: {
     meta: {
-      title: "Maison Asmae | Intelligence culturelle & art de vivre",
-      description: "Maison Asmae accompagne les individus et organisations internationales dans les codes sociaux, professionnels et culturels avec élégance, discrétion et précision."
+      title: "Maison Asmæ | Académie premium d’étiquette moderne",
+      description: "Maison Asmæ est une académie premium dédiée à l’étiquette moderne, l’hospitalité, l’intelligence culturelle et la présence exécutive."
     },
     brand: {
-      name: "Maison Asmae",
-      descriptor: "Intelligence culturelle · Art de vivre · Présence exécutive"
+      name: "Maison Asmæ",
+      descriptor: "Étiquette moderne · Hospitalité · Présence exécutive"
     },
     nav: [
       { href: "/services", label: "Services" },
@@ -113,80 +113,80 @@ export const siteContent: Record<Locale, SiteContent> = {
       dark: "Sombre"
     },
     home: {
-      eyebrow: "Une maison contemporaine de raffinement culturel",
-      title: "Naviguer les environnements sociaux, professionnels et internationaux avec grâce.",
-      intro: "Maison Asmae transmet les codes, les gestes et l’intelligence culturelle qui permettent de transformer une opportunité en influence durable.",
+      eyebrow: "Académie premium d’étiquette moderne",
+      title: "Hospitalité, présence exécutive et confiance sociale pour les environnements d’exception.",
+      intro: "Maison Asmæ forme les individus et organisations aux codes contemporains de l’élégance internationale : recevoir, communiquer, réseauter, dîner, voyager et se présenter avec justesse dans les cercles exigeants.",
       primaryCta: "Demander une consultation",
-      secondaryCta: "Explorer les programmes",
-      promiseTitle: "Discrétion, justesse et présence",
-      promiseBody: "Notre approche ne cherche pas à imposer des règles. Elle aide chaque client à comprendre les nuances, les attentes et les comportements qui créent confiance, aisance et crédibilité.",
-      pillarsTitle: "Trois domaines d’accompagnement",
+      secondaryCta: "Voir les parcours",
+      promiseTitle: "Ce que l’on comprend dès l’arrivée",
+      promiseBody: "Une académie premium au croisement de l’excellence corporate, de l’hospitalité de luxe et de la confiance sociale raffinée — inspirée par l’Europe, le GCC et les grands hubs internationaux.",
+      pillarsTitle: "Trois parcours clairs",
       pillars: [
-        { title: "Hospitalité & art de recevoir", body: "Invitations, table, gestes d’attention, expérience invité et hospitalité franco-marocaine contemporaine." },
-        { title: "Présence, communication & influence", body: "Conversation, prise de parole, networking, dîners d’affaires et aisance dans les environnements exigeants." },
-        { title: "Positionnement personnel & réputation", body: "Aligner visibilité, crédibilité et relations avec des ambitions personnelles et professionnelles de haut niveau." }
+        { title: "The Modern Host", body: "Hospitalité, art de recevoir, entertaining, gifting, table culture et création d’expériences sociales mémorables." },
+        { title: "Executive Presence Academy", body: "Business dining, networking, diplomatie, leadership presence, conversation stratégique et codes professionnels internationaux." },
+        { title: "The Finishing House", body: "Programme premium pour évoluer avec aisance dans les environnements sociaux et professionnels de haut niveau." }
       ],
-      signatureTitle: "Une plateforme pensée comme une maison",
-      signatureBody: "Conseil privé, programmes éducatifs, salons, dîners, contenus éditoriaux et accompagnements corporate peuvent évoluer progressivement autour d’une même philosophie : élégance, générosité et excellence."
+      signatureTitle: "Une référence moderne pour la sophistication globale",
+      signatureBody: "Le visiteur doit comprendre immédiatement que Maison Asmæ n’est pas un blog lifestyle : c’est une académie et maison de conseil qui enseigne les codes de la confiance, de l’hospitalité et de la présence dans un contexte international."
     },
     services: {
-      eyebrow: "Advisory privé",
-      title: "Un accompagnement sur mesure pour les environnements de haut niveau.",
-      intro: "Les services de Maison Asmae s’adressent aux clients internationaux qui souhaitent comprendre les codes sociaux, professionnels et culturels avec profondeur et authenticité.",
+      eyebrow: "Advisory & Academy",
+      title: "Des services conçus pour transmettre les codes de l’élégance contemporaine.",
+      intro: "Maison Asmæ accompagne les clients privés, professionnels et organisations qui veulent maîtriser les codes sociaux, culturels et professionnels avec précision.",
       items: [
-        { title: "Consultations privées", body: "Sessions individuelles en ligne ou en personne pour clarifier une situation, préparer un séjour, renforcer une présence ou structurer un objectif de réputation." },
-        { title: "Hospitalité & expérience invité", body: "Conseil autour de l’art de recevoir, de la table, des invitations, du gifting et des gestes qui créent une relation mémorable." },
-        { title: "Présence exécutive", body: "Accompagnement sur la posture, la conversation, la prise de parole, les dîners d’affaires et la crédibilité dans des cercles internationaux." },
-        { title: "Positionnement & réputation", body: "Réflexion stratégique sur la manière d’être perçu, de construire la confiance et de cultiver des relations significatives." }
+        { title: "Étiquette moderne", body: "Codes sociaux contemporains, communication élégante, gestes justes et aisance dans les environnements internationaux." },
+        { title: "Hospitalité & art de recevoir", body: "Recevoir, composer une table, inviter, offrir, accueillir et créer une expérience invitée mémorable." },
+        { title: "Présence exécutive", body: "Posture, conversation, leadership presence, networking, business dining et crédibilité professionnelle." },
+        { title: "Intelligence culturelle", body: "Comprendre les nuances entre Europe, GCC et hubs internationaux afin d’agir avec tact et confiance." }
       ]
     },
     programmes: {
-      eyebrow: "Programmes signature",
-      title: "Des formats structurés pour transmettre les codes avec méthode.",
-      intro: "Chaque programme peut être proposé en accompagnement privé, atelier ou expérience de groupe selon le contexte.",
+      eyebrow: "Parcours signature",
+      title: "Une académie structurée autour de trois piliers premium.",
+      intro: "Chaque parcours peut évoluer en programme en ligne, accompagnement privé, masterclass ou expérience de groupe curated.",
       items: [
         {
-          slug: "paris-confidence-programme",
-          title: "The Paris Confidence Programme",
-          audience: "Visiteurs internationaux, expatriés et clients GCC séjournant à Paris.",
-          description: "Un programme pour comprendre les codes sociaux, culturels et professionnels français avec aisance, nuance et confiance.",
-          outcomes: ["Lecture des codes parisiens", "Aisance dans les rencontres sociales", "Dîners, invitations et conversation", "Présence adaptée aux contextes premium"]
+          slug: "modern-host",
+          title: "The Modern Host",
+          audience: "Pour celles et ceux qui souhaitent recevoir, inviter et créer des expériences sociales avec aisance.",
+          description: "Un parcours dédié à l’hospitalité, l’entertaining, la table, le gifting, la conversation et la confiance sociale.",
+          outcomes: ["Recevoir avec naturel", "Créer une atmosphère raffinée", "Maîtriser les codes de la table", "Transformer l’hospitalité en relation"]
         },
         {
-          slug: "modern-host-programme",
-          title: "The Modern Host Programme",
-          audience: "Particuliers, hôtes, entrepreneurs et familles souhaitant recevoir avec élégance.",
-          description: "Une approche contemporaine de l’hospitalité, de la table, du gifting et de l’expérience invité.",
-          outcomes: ["Créer une atmosphère", "Recevoir avec naturel", "Construire des relations par l’hospitalité", "Développer une signature personnelle"]
+          slug: "executive-presence-academy",
+          title: "Executive Presence Academy",
+          audience: "Pour dirigeants, entrepreneurs, diplomates et professionnels internationaux.",
+          description: "Un programme pour naviguer business dining, networking, diplomatie, leadership presence et environnements corporate exigeants.",
+          outcomes: ["Présence exécutive", "Conversation stratégique", "Business dining", "Communication interculturelle"]
         },
         {
-          slug: "executive-refinement-programme",
-          title: "The Executive Refinement Programme",
-          audience: "Dirigeants, entrepreneurs, diplomates et professionnels internationaux.",
-          description: "Un parcours pour renforcer présence, communication, influence et crédibilité dans des environnements exigeants.",
-          outcomes: ["Présence exécutive", "Conversation stratégique", "Communication interculturelle", "Crédibilité et réputation"]
+          slug: "finishing-house",
+          title: "The Finishing House by Maison Asmæ",
+          audience: "Programme flagship pour clients recherchant une transformation premium et complète.",
+          description: "L’art d’évoluer avec aisance dans les environnements sociaux, professionnels, culturels et internationaux de haut niveau.",
+          outcomes: ["Confiance sociale raffinée", "Codes internationaux", "Élégance comportementale", "Positionnement personnel"]
         }
       ]
     },
     corporate: {
-      eyebrow: "Maison Asmae Corporate",
-      title: "Intelligence culturelle et expérience client pour organisations exigeantes.",
-      intro: "Maison Asmae peut accompagner les marques de luxe, hôtels, family offices et équipes dirigeantes dans la compréhension des codes culturels, relationnels et d’hospitalité.",
+      eyebrow: "Maison Asmæ Corporate",
+      title: "Intelligence culturelle et excellence relationnelle pour organisations exigeantes.",
+      intro: "Maison Asmæ accompagne les marques de luxe, hôtels, family offices et équipes dirigeantes dans les codes de l’hospitalité, du protocole moderne, de la communication et de l’expérience client premium.",
       clientsTitle: "Pour",
-      clients: ["Marques de luxe", "Hôtels & hospitality groups", "Family offices", "Équipes exécutives", "Organisations internationales"],
+      clients: ["Marques de luxe", "Hôtels & groupes hospitality", "Family offices", "Équipes exécutives", "Organisations internationales"],
       servicesTitle: "Formats possibles",
-      services: ["Ateliers d’intelligence culturelle", "Conseil en expérience client premium", "Formation en présence exécutive", "Communication interculturelle", "Stratégie d’hospitalité"]
+      services: ["Ateliers d’intelligence culturelle", "Formation en présence exécutive", "Business dining & networking", "Conseil en expérience client premium", "Protocoles d’hospitalité moderne"]
     },
     letters: {
       eyebrow: "Journal éditorial",
-      title: "Letters from Maison Asmae",
-      intro: "Réflexions sur l’hospitalité, la culture, l’élégance contemporaine, la conversation et l’intelligence sociale.",
+      title: "Letters from Maison Asmæ",
+      intro: "Réflexions sur l’hospitalité, l’étiquette moderne, l’élégance contemporaine, la communication et l’intelligence sociale.",
       empty: "Les premières lettres seront publiées prochainement."
     },
     contact: {
       eyebrow: "Commencer la conversation",
       title: "Demander une consultation privée.",
-      intro: "Partagez votre contexte, votre objectif et le type d’accompagnement recherché. Maison Asmae répondra avec discrétion et attention.",
+      intro: "Partagez votre contexte, votre objectif et le type d’accompagnement recherché. Maison Asmæ répondra avec discrétion et attention.",
       emailLabel: "Email direct",
       formTitle: "Demande initiale",
       name: "Nom",
@@ -197,18 +197,18 @@ export const siteContent: Record<Locale, SiteContent> = {
       emailPlaceholder: "bonjour@maisonasmae.com"
     },
     footer: {
-      line: "Cultural intelligence, hospitality and executive refinement.",
-      note: "Maison Asmae est conçue comme une maison de conseil discrète, éditoriale et internationale."
+      line: "Modern etiquette, luxury hospitality and executive presence.",
+      note: "Maison Asmæ est conçue comme une académie premium et maison de conseil internationale."
     }
   },
   en: {
     meta: {
-      title: "Maison Asmae | Cultural intelligence & art de vivre",
-      description: "Maison Asmae helps international individuals and organisations navigate social, professional and luxury environments with elegance, discretion and confidence."
+      title: "Maison Asmæ | Premium academy for modern etiquette",
+      description: "Maison Asmæ is a premium academy for modern etiquette, hospitality, cultural intelligence and executive presence."
     },
     brand: {
-      name: "Maison Asmae",
-      descriptor: "Cultural intelligence · Art de vivre · Executive presence"
+      name: "Maison Asmæ",
+      descriptor: "Modern etiquette · Hospitality · Executive presence"
     },
     nav: [
       { href: "/services", label: "Services" },
@@ -222,80 +222,80 @@ export const siteContent: Record<Locale, SiteContent> = {
       dark: "Dark"
     },
     home: {
-      eyebrow: "A contemporary house of cultural refinement",
-      title: "Navigate social, professional and international environments with grace.",
-      intro: "Maison Asmae transmits the codes, gestures and cultural fluency that help transform opportunity into lasting influence.",
+      eyebrow: "Premium academy for modern etiquette",
+      title: "Hospitality, executive presence and refined social confidence for exceptional environments.",
+      intro: "Maison Asmæ trains individuals and organisations in the contemporary codes of international elegance: hosting, communication, networking, business dining, travel and high-level social confidence.",
       primaryCta: "Request a consultation",
-      secondaryCta: "Explore programmes",
-      promiseTitle: "Discretion, precision and presence",
-      promiseBody: "Our approach is not about imposing rules. It helps each client understand the nuances, expectations and behaviours that create trust, ease and credibility.",
-      pillarsTitle: "Three advisory pillars",
+      secondaryCta: "View pathways",
+      promiseTitle: "Clear from the first impression",
+      promiseBody: "A premium academy at the intersection of corporate excellence, luxury hospitality and refined social confidence — inspired by Europe, the GCC and global business hubs.",
+      pillarsTitle: "Three clear pathways",
       pillars: [
-        { title: "Hospitality & the art of receiving", body: "Invitations, table culture, thoughtful gestures, guest experience and contemporary French-Moroccan hospitality." },
-        { title: "Presence, communication & influence", body: "Conversation, public speaking, networking, business dining and ease in demanding environments." },
-        { title: "Personal positioning & reputation", body: "Align visibility, credibility and relationships with high-level personal and professional ambitions." }
+        { title: "The Modern Host", body: "Hospitality, entertaining, gifting, table culture and the creation of memorable social experiences." },
+        { title: "Executive Presence Academy", body: "Business dining, networking, diplomacy, leadership presence, strategic conversation and international professional codes." },
+        { title: "The Finishing House", body: "A premium flagship programme for moving with ease through high-level social and professional environments." }
       ],
-      signatureTitle: "A platform designed as a maison",
-      signatureBody: "Private advisory, educational programmes, salons, dinners, editorial content and corporate work can evolve around one philosophy: elegance, generosity and excellence."
+      signatureTitle: "A modern reference for global sophistication",
+      signatureBody: "Visitors should immediately understand that Maison Asmæ is not a lifestyle blog. It is an academy and advisory house teaching the codes of confidence, hospitality and presence in a global context."
     },
     services: {
-      eyebrow: "Private advisory",
-      title: "Tailored guidance for high-level environments.",
-      intro: "Maison Asmae serves international clients who want to understand social, professional and cultural codes with depth and authenticity.",
+      eyebrow: "Advisory & Academy",
+      title: "Services designed to transmit the codes of contemporary elegance.",
+      intro: "Maison Asmæ supports private clients, professionals and organisations seeking to master social, cultural and professional codes with precision.",
       items: [
-        { title: "Private consultations", body: "One-to-one online or in-person sessions to clarify a situation, prepare a stay, strengthen presence or shape a reputation goal." },
-        { title: "Hospitality & guest experience", body: "Advisory around hosting, table culture, invitations, gifting and gestures that create memorable relationships." },
-        { title: "Executive presence", body: "Guidance on posture, conversation, public speaking, business dining and credibility in international circles." },
-        { title: "Positioning & reputation", body: "Strategic reflection on how to be perceived, build trust and cultivate meaningful relationships." }
+        { title: "Modern etiquette", body: "Contemporary social codes, elegant communication, thoughtful gestures and ease in international settings." },
+        { title: "Hospitality & hosting", body: "Hosting, table culture, invitations, gifting, welcoming and creating memorable guest experiences." },
+        { title: "Executive presence", body: "Posture, conversation, leadership presence, networking, business dining and professional credibility." },
+        { title: "Cultural intelligence", body: "Understanding nuances across Europe, the GCC and international hubs in order to act with tact and confidence." }
       ]
     },
     programmes: {
-      eyebrow: "Signature programmes",
-      title: "Structured formats to transmit the codes with method.",
-      intro: "Each programme can be delivered as private advisory, workshop or curated group experience.",
+      eyebrow: "Signature pathways",
+      title: "An academy structured around three premium pillars.",
+      intro: "Each pathway can evolve into an online programme, private advisory journey, masterclass or curated group experience.",
       items: [
         {
-          slug: "paris-confidence-programme",
-          title: "The Paris Confidence Programme",
-          audience: "International visitors, expatriates and GCC clients spending time in Paris.",
-          description: "A programme for understanding French social, cultural and professional codes with ease, nuance and confidence.",
-          outcomes: ["Reading Parisian codes", "Ease in social encounters", "Dining, invitations and conversation", "Presence in premium contexts"]
+          slug: "modern-host",
+          title: "The Modern Host",
+          audience: "For those who want to host, entertain and create social experiences with ease.",
+          description: "A pathway dedicated to hospitality, entertaining, table culture, gifting, conversation and social confidence.",
+          outcomes: ["Host with natural ease", "Create a refined atmosphere", "Master table codes", "Turn hospitality into relationship"]
         },
         {
-          slug: "modern-host-programme",
-          title: "The Modern Host Programme",
-          audience: "Individuals, hosts, entrepreneurs and families who want to receive with elegance.",
-          description: "A contemporary approach to hospitality, table culture, gifting and guest experience.",
-          outcomes: ["Create atmosphere", "Host with natural ease", "Build relationships through hospitality", "Develop a personal signature"]
+          slug: "executive-presence-academy",
+          title: "Executive Presence Academy",
+          audience: "For executives, entrepreneurs, diplomats and international professionals.",
+          description: "A programme for navigating business dining, networking, diplomacy, leadership presence and demanding corporate environments.",
+          outcomes: ["Executive presence", "Strategic conversation", "Business dining", "Intercultural communication"]
         },
         {
-          slug: "executive-refinement-programme",
-          title: "The Executive Refinement Programme",
-          audience: "Executives, entrepreneurs, diplomats and international professionals.",
-          description: "A pathway to strengthen presence, communication, influence and credibility in demanding environments.",
-          outcomes: ["Executive presence", "Strategic conversation", "Intercultural communication", "Credibility and reputation"]
+          slug: "finishing-house",
+          title: "The Finishing House by Maison Asmæ",
+          audience: "A flagship programme for clients seeking a complete premium transformation.",
+          description: "The art of moving effortlessly through high-level social, professional, cultural and international environments.",
+          outcomes: ["Refined social confidence", "International codes", "Behavioural elegance", "Personal positioning"]
         }
       ]
     },
     corporate: {
-      eyebrow: "Maison Asmae Corporate",
-      title: "Cultural intelligence and client experience for discerning organisations.",
-      intro: "Maison Asmae can support luxury brands, hotels, family offices and executive teams in understanding cultural, relational and hospitality codes.",
+      eyebrow: "Maison Asmæ Corporate",
+      title: "Cultural intelligence and relational excellence for discerning organisations.",
+      intro: "Maison Asmæ supports luxury brands, hotels, family offices and executive teams with the codes of hospitality, modern protocol, communication and premium client experience.",
       clientsTitle: "For",
       clients: ["Luxury brands", "Hotels & hospitality groups", "Family offices", "Executive teams", "International organisations"],
       servicesTitle: "Possible formats",
-      services: ["Cultural intelligence workshops", "Premium client experience advisory", "Executive presence training", "Intercultural communication", "Hospitality strategy"]
+      services: ["Cultural intelligence workshops", "Executive presence training", "Business dining & networking", "Premium client experience advisory", "Modern hospitality protocols"]
     },
     letters: {
       eyebrow: "Editorial journal",
-      title: "Letters from Maison Asmae",
-      intro: "Reflections on hospitality, culture, contemporary elegance, conversation and social intelligence.",
+      title: "Letters from Maison Asmæ",
+      intro: "Reflections on hospitality, modern etiquette, contemporary elegance, communication and social intelligence.",
       empty: "The first letters will be published soon."
     },
     contact: {
       eyebrow: "Begin the conversation",
       title: "Request a private consultation.",
-      intro: "Share your context, objective and the type of support you are seeking. Maison Asmae will respond with discretion and care.",
+      intro: "Share your context, objective and the type of support you are seeking. Maison Asmæ will respond with discretion and care.",
       emailLabel: "Direct email",
       formTitle: "Initial request",
       name: "Name",
@@ -306,18 +306,18 @@ export const siteContent: Record<Locale, SiteContent> = {
       emailPlaceholder: "bonjour@maisonasmae.com"
     },
     footer: {
-      line: "Cultural intelligence, hospitality and executive refinement.",
-      note: "Maison Asmae is designed as a discreet, editorial and international advisory house."
+      line: "Modern etiquette, luxury hospitality and executive presence.",
+      note: "Maison Asmæ is designed as a premium academy and international advisory house."
     }
   },
   ar: {
     meta: {
-      title: "Maison Asmae | الذكاء الثقافي وفن العيش",
-      description: "تساعد Maison Asmae الأفراد والمؤسسات الدولية على فهم البيئات الاجتماعية والمهنية والثقافية برقي وثقة وخصوصية."
+      title: "Maison Asmæ | أكاديمية راقية للإتيكيت الحديث",
+      description: "Maison Asmæ أكاديمية راقية للإتيكيت الحديث، الضيافة، الذكاء الثقافي والحضور التنفيذي."
     },
     brand: {
-      name: "Maison Asmae",
-      descriptor: "ذكاء ثقافي · فن العيش · حضور تنفيذي"
+      name: "Maison Asmæ",
+      descriptor: "إتيكيت حديث · ضيافة · حضور تنفيذي"
     },
     nav: [
       { href: "/services", label: "الخدمات" },
@@ -331,80 +331,80 @@ export const siteContent: Record<Locale, SiteContent> = {
       dark: "داكن"
     },
     home: {
-      eyebrow: "دار معاصرة للرقي والذكاء الثقافي",
-      title: "فهم البيئات الاجتماعية والمهنية والدولية بثقة وأناقة.",
-      intro: "تنقل Maison Asmae الرموز والسلوكيات والمعرفة الثقافية التي تساعد على تحويل الفرص إلى تأثير طويل الأمد.",
+      eyebrow: "أكاديمية راقية للإتيكيت الحديث",
+      title: "الضيافة، الحضور التنفيذي والثقة الاجتماعية الراقية للبيئات عالية المستوى.",
+      intro: "تدرّب Maison Asmæ الأفراد والمؤسسات على رموز الأناقة الدولية المعاصرة: الاستقبال، التواصل، بناء العلاقات، موائد العمل، السفر والثقة في الدوائر الاجتماعية والمهنية الرفيعة.",
       primaryCta: "طلب استشارة",
-      secondaryCta: "استكشاف البرامج",
-      promiseTitle: "خصوصية، دقة وحضور",
-      promiseBody: "لا يقوم منهجنا على فرض قواعد جامدة، بل على فهم الفروق الدقيقة والتوقعات والسلوكيات التي تبني الثقة والراحة والمصداقية.",
-      pillarsTitle: "ثلاثة محاور أساسية",
+      secondaryCta: "عرض المسارات",
+      promiseTitle: "الغاية واضحة من اللحظة الأولى",
+      promiseBody: "أكاديمية راقية تقع عند تقاطع التميز المؤسسي، معايير الضيافة الفاخرة والثقة الاجتماعية المهذبة — باستلهام من أوروبا، الخليج ومراكز الأعمال العالمية.",
+      pillarsTitle: "ثلاثة مسارات واضحة",
       pillars: [
-        { title: "الضيافة وفن الاستقبال", body: "الدعوات، ثقافة المائدة، اللفتات الراقية، تجربة الضيف والضيافة الفرنسية المغربية المعاصرة." },
-        { title: "الحضور والتواصل والتأثير", body: "المحادثة، التحدث أمام الجمهور، بناء العلاقات، موائد العمل والراحة في البيئات الرفيعة." },
-        { title: "التموضع الشخصي والسمعة", body: "مواءمة الظهور والمصداقية والعلاقات مع الطموحات الشخصية والمهنية عالية المستوى." }
+        { title: "The Modern Host", body: "الضيافة، الاستقبال، الهدايا، ثقافة المائدة وصناعة تجارب اجتماعية راقية ولا تُنسى." },
+        { title: "Executive Presence Academy", body: "موائد العمل، بناء العلاقات، الدبلوماسية، الحضور القيادي، المحادثة الاستراتيجية والرموز المهنية الدولية." },
+        { title: "The Finishing House", body: "برنامج رئيسي راقٍ لتعلّم الحركة بثقة وسلاسة داخل البيئات الاجتماعية والمهنية عالية المستوى." }
       ],
-      signatureTitle: "منصة مصممة كدار متكاملة",
-      signatureBody: "يمكن أن تتطور الاستشارات الخاصة والبرامج التعليمية والصالونات والموائد والمحتوى التحريري والخدمات المؤسسية حول فلسفة واحدة: الأناقة، الكرم والتميّز."
+      signatureTitle: "مرجع حديث للرقي العالمي",
+      signatureBody: "يجب أن يفهم الزائر مباشرة أن Maison Asmæ ليست مدونة أسلوب حياة، بل أكاديمية ودار استشارية تعلّم رموز الثقة والضيافة والحضور في سياق عالمي."
     },
     services: {
-      eyebrow: "استشارات خاصة",
-      title: "مرافقة مصممة للبيئات الرفيعة والدولية.",
-      intro: "تخدم Maison Asmae العملاء الدوليين الراغبين في فهم الرموز الاجتماعية والمهنية والثقافية بعمق وأصالة.",
+      eyebrow: "استشارات وأكاديمية",
+      title: "خدمات مصممة لنقل رموز الأناقة المعاصرة.",
+      intro: "ترافق Maison Asmæ العملاء الأفراد والمهنيين والمؤسسات الراغبة في إتقان الرموز الاجتماعية والثقافية والمهنية بدقة.",
       items: [
-        { title: "استشارات فردية", body: "جلسات فردية عبر الإنترنت أو حضورياً لتوضيح موقف، التحضير لإقامة، تعزيز الحضور أو صياغة هدف مرتبط بالسمعة." },
-        { title: "الضيافة وتجربة الضيف", body: "استشارات حول الاستقبال، ثقافة المائدة، الدعوات، الهدايا واللفتات التي تصنع علاقات لا تُنسى." },
-        { title: "الحضور التنفيذي", body: "مرافقة في الوقفة، المحادثة، التحدث، موائد العمل والمصداقية داخل الدوائر الدولية." },
-        { title: "التموضع والسمعة", body: "تفكير استراتيجي حول كيفية بناء الانطباع، الثقة والعلاقات ذات المعنى." }
+        { title: "الإتيكيت الحديث", body: "الرموز الاجتماعية المعاصرة، التواصل الأنيق، اللفتات المدروسة والراحة في البيئات الدولية." },
+        { title: "الضيافة وفن الاستقبال", body: "الاستقبال، ثقافة المائدة، الدعوات، الهدايا، الترحيب وصناعة تجربة ضيف لا تُنسى." },
+        { title: "الحضور التنفيذي", body: "الوقفة، المحادثة، الحضور القيادي، بناء العلاقات، موائد العمل والمصداقية المهنية." },
+        { title: "الذكاء الثقافي", body: "فهم الفروق الدقيقة بين أوروبا والخليج ومراكز الأعمال العالمية للتصرف بلباقة وثقة." }
       ]
     },
     programmes: {
-      eyebrow: "برامج متخصصة",
-      title: "صيغ منظمة لنقل الرموز الاجتماعية والثقافية بمنهجية.",
-      intro: "يمكن تقديم كل برنامج كاستشارة خاصة، ورشة عمل أو تجربة جماعية منتقاة.",
+      eyebrow: "مسارات متخصصة",
+      title: "أكاديمية مبنية حول ثلاثة محاور راقية.",
+      intro: "يمكن أن يتحول كل مسار إلى برنامج إلكتروني، مرافقة خاصة، ماستر كلاس أو تجربة جماعية منتقاة.",
       items: [
         {
-          slug: "paris-confidence-programme",
-          title: "The Paris Confidence Programme",
-          audience: "للزوار الدوليين والمغتربين وعملاء الخليج المقيمين مؤقتاً في باريس.",
-          description: "برنامج لفهم الرموز الاجتماعية والثقافية والمهنية الفرنسية براحة ووعي وثقة.",
-          outcomes: ["قراءة الرموز الباريسية", "الراحة في اللقاءات الاجتماعية", "الموائد والدعوات والمحادثة", "حضور مناسب للسياقات الراقية"]
+          slug: "modern-host",
+          title: "The Modern Host",
+          audience: "لمن يرغب في الاستقبال وصناعة تجارب اجتماعية بثقة وسلاسة.",
+          description: "مسار مخصص للضيافة، الاستقبال، ثقافة المائدة، الهدايا، المحادثة والثقة الاجتماعية.",
+          outcomes: ["الاستقبال بعفوية", "خلق أجواء راقية", "إتقان رموز المائدة", "تحويل الضيافة إلى علاقة"]
         },
         {
-          slug: "modern-host-programme",
-          title: "The Modern Host Programme",
-          audience: "للأفراد والمضيفين ورواد الأعمال والعائلات الراغبة في الاستقبال بأناقة.",
-          description: "مقاربة معاصرة للضيافة وثقافة المائدة والهدايا وتجربة الضيف.",
-          outcomes: ["خلق أجواء راقية", "الاستقبال بعفوية", "بناء العلاقات عبر الضيافة", "تطوير بصمة شخصية"]
-        },
-        {
-          slug: "executive-refinement-programme",
-          title: "The Executive Refinement Programme",
+          slug: "executive-presence-academy",
+          title: "Executive Presence Academy",
           audience: "للمديرين ورواد الأعمال والدبلوماسيين والمهنيين الدوليين.",
-          description: "مسار لتعزيز الحضور والتواصل والتأثير والمصداقية في البيئات المتطلبة.",
-          outcomes: ["حضور تنفيذي", "محادثة استراتيجية", "تواصل بين الثقافات", "مصداقية وسمعة"]
+          description: "برنامج للتعامل مع موائد العمل، بناء العلاقات، الدبلوماسية، الحضور القيادي والبيئات المؤسسية المتطلبة.",
+          outcomes: ["حضور تنفيذي", "محادثة استراتيجية", "موائد العمل", "تواصل بين الثقافات"]
+        },
+        {
+          slug: "finishing-house",
+          title: "The Finishing House by Maison Asmæ",
+          audience: "برنامج رئيسي للعملاء الباحثين عن تحول راقٍ ومتكامل.",
+          description: "فن الحركة بسلاسة داخل البيئات الاجتماعية والمهنية والثقافية والدولية عالية المستوى.",
+          outcomes: ["ثقة اجتماعية راقية", "رموز دولية", "أناقة سلوكية", "تموضع شخصي"]
         }
       ]
     },
     corporate: {
-      eyebrow: "Maison Asmae للشركات",
-      title: "ذكاء ثقافي وتجربة عميل للمؤسسات الرفيعة.",
-      intro: "يمكن لـ Maison Asmae دعم علامات الرفاهية والفنادق والمكاتب العائلية والفرق التنفيذية في فهم الرموز الثقافية والعلاقاتية والضيافية.",
+      eyebrow: "Maison Asmæ للشركات",
+      title: "ذكاء ثقافي وتميز علاقاتي للمؤسسات الرفيعة.",
+      intro: "تدعم Maison Asmæ علامات الرفاهية والفنادق والمكاتب العائلية والفرق التنفيذية في رموز الضيافة والبروتوكول الحديث والتواصل وتجربة العميل الفاخرة.",
       clientsTitle: "مناسب لـ",
       clients: ["علامات الرفاهية", "الفنادق ومجموعات الضيافة", "المكاتب العائلية", "الفرق التنفيذية", "المنظمات الدولية"],
       servicesTitle: "صيغ ممكنة",
-      services: ["ورشات الذكاء الثقافي", "استشارات تجربة العميل الفاخرة", "تدريب الحضور التنفيذي", "التواصل بين الثقافات", "استراتيجية الضيافة"]
+      services: ["ورشات الذكاء الثقافي", "تدريب الحضور التنفيذي", "موائد العمل وبناء العلاقات", "استشارات تجربة العميل الفاخرة", "بروتوكولات الضيافة الحديثة"]
     },
     letters: {
       eyebrow: "دفتر تحريري",
-      title: "Letters from Maison Asmae",
-      intro: "تأملات في الضيافة، الثقافة، الأناقة المعاصرة، المحادثة والذكاء الاجتماعي.",
+      title: "Letters from Maison Asmæ",
+      intro: "تأملات في الضيافة، الإتيكيت الحديث، الأناقة المعاصرة، التواصل والذكاء الاجتماعي.",
       empty: "ستنشر الرسائل الأولى قريباً."
     },
     contact: {
       eyebrow: "بداية الحوار",
       title: "طلب استشارة خاصة.",
-      intro: "شارك السياق والهدف ونوع المرافقة المطلوبة. سترد Maison Asmae بخصوصية واهتمام.",
+      intro: "شارك السياق والهدف ونوع المرافقة المطلوبة. سترد Maison Asmæ بخصوصية واهتمام.",
       emailLabel: "البريد المباشر",
       formTitle: "طلب أولي",
       name: "الاسم",
@@ -415,8 +415,8 @@ export const siteContent: Record<Locale, SiteContent> = {
       emailPlaceholder: "bonjour@maisonasmae.com"
     },
     footer: {
-      line: "ذكاء ثقافي، ضيافة وحضور تنفيذي.",
-      note: "صُممت Maison Asmae كدار استشارية رفيعة، تحريرية ودولية."
+      line: "إتيكيت حديث، ضيافة فاخرة وحضور تنفيذي.",
+      note: "صُممت Maison Asmæ كأكاديمية راقية ودار استشارية دولية."
     }
   }
 };
@@ -433,7 +433,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "Recevoir commence bien avant l’arrivée des invités. Le véritable art de l’hospitalité réside dans la capacité à anticiper sans contrôler, à guider sans imposer et à créer un cadre dans lequel chacun se sent reconnu.",
         "Dans les traditions françaises, marocaines et moyen-orientales, l’hôte n’est pas simplement une personne qui ouvre sa maison. Il devient le gardien d’une atmosphère, d’un rythme et d’une attention portée aux détails.",
-        "Maison Asmae considère l’hospitalité comme une forme douce d’influence : une manière de construire la confiance, de renforcer les liens et de laisser une impression qui demeure." 
+        "Maison Asmæ considère l’hospitalité comme une forme douce d’influence : une manière de construire la confiance, de renforcer les liens et de laisser une impression qui demeure."
       ]
     },
     {
@@ -446,7 +446,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "Le luxe le plus durable n’est pas toujours visible. Il se manifeste dans la précision d’un geste, la qualité d’un silence, la pertinence d’une invitation ou la capacité à respecter le contexte.",
         "À une époque saturée d’images, la vraie sophistication se reconnaît souvent à ce qui est retenu plutôt qu’à ce qui est montré.",
-        "Maison Asmae défend une approche du raffinement fondée sur la culture, la discrétion et l’intelligence relationnelle." 
+        "Maison Asmæ défend une approche du raffinement fondée sur la culture, la discrétion et l’intelligence relationnelle."
       ]
     }
   ],
@@ -461,7 +461,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "Hosting begins long before guests arrive. The real art of hospitality lies in anticipating without controlling, guiding without imposing and creating a setting where people feel considered.",
         "Across French, Moroccan and Middle Eastern traditions, the host is not merely someone who opens a home. The host becomes the guardian of an atmosphere, a rhythm and a quality of attention.",
-        "Maison Asmae views hospitality as a gentle form of influence: a way to build trust, strengthen relationships and leave an impression that endures."
+        "Maison Asmæ views hospitality as a gentle form of influence: a way to build trust, strengthen relationships and leave an impression that endures."
       ]
     },
     {
@@ -474,7 +474,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "The most enduring luxury is not always visible. It appears in the precision of a gesture, the quality of a silence, the relevance of an invitation or the ability to respect context.",
         "In an age saturated by images, true sophistication is often recognised by what is restrained rather than what is displayed.",
-        "Maison Asmae defends a vision of refinement rooted in culture, discretion and relational intelligence."
+        "Maison Asmæ defends a vision of refinement rooted in culture, discretion and relational intelligence."
       ]
     }
   ],
@@ -489,7 +489,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "يبدأ الاستقبال قبل وصول الضيوف بوقت طويل. يكمن فن الضيافة الحقيقي في القدرة على التوقع دون السيطرة، والتوجيه دون فرض، وخلق مساحة يشعر فيها كل شخص بأنه محل اهتمام.",
         "في التقاليد الفرنسية والمغربية والشرق أوسطية، لا يكون المضيف مجرد شخص يفتح بيته. يصبح حارساً للأجواء والإيقاع ونوعية الاهتمام.",
-        "تنظر Maison Asmae إلى الضيافة كشكل هادئ من التأثير: طريقة لبناء الثقة، تقوية العلاقات وترك انطباع يبقى." 
+        "تنظر Maison Asmæ إلى الضيافة كشكل هادئ من التأثير: طريقة لبناء الثقة، تقوية العلاقات وترك انطباع يبقى."
       ]
     },
     {
@@ -502,7 +502,7 @@ export const journalPosts: Record<Locale, JournalPost[]> = {
       body: [
         "الفخامة الأكثر بقاء ليست دائماً مرئية. تظهر في دقة اللفتة، جودة الصمت، مناسبة الدعوة أو القدرة على احترام السياق.",
         "في زمن ممتلئ بالصور، تُعرف الأناقة الحقيقية غالباً بما يتم ضبطه لا بما يتم عرضه.",
-        "تدافع Maison Asmae عن رؤية للرقي قائمة على الثقافة والخصوصية والذكاء العلاقاتي." 
+        "تدافع Maison Asmæ عن رؤية للرقي قائمة على الثقافة والخصوصية والذكاء العلاقاتي."
       ]
     }
   ]
